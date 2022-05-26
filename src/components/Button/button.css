@@ -1,12 +1,12 @@
 .buttonContainer {
-    height: 65px;
+    height: 55px;
     display: flex;
     flex: 1 1;
     justify-content: center;
     align-items: center;
     font-weight: bold;
     font-size: 1rem;
-    background-color: #2a7474;
+    background-color: #2a2f4d;
     color: white;
     border-radius: 20px;
     border: 2px solid white;
@@ -15,10 +15,10 @@
     user-select: none;
 }
 .buttonContainer:hover {
-    background-color: violet;
+    background-color: #8c5b8c;
 }
 .operator {
-    background-color: #23733b;
+    background-color: #184a27;
 }
 .operator:hover {
     background-color: #bc8c43;

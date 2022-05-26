@@ -1,40 +1,16 @@
 import './App.css';
-import Button from './components/Button/Button';
-import CalculatorScreen from './components/CalculatorScreen/CalculatorScreen';
+import CalculatorContainer from './components/CalculatorContainer/CalculatorContainer';
 
 function App() {
   return (
     <div className='app'>
       <header className='appHeader'>
-        <p>App</p>
+        <h1>Calculator app</h1>
       </header>
-      <div className='calculatorContainer'>
-        <CalculatorScreen />
-        <div className='row'>
-          <Button>7</Button>
-          <Button>8</Button>
-          <Button>9</Button>
-          <Button>*</Button>
-        </div>
-        <div className='row'>
-          <Button>4</Button>
-          <Button>5</Button>
-          <Button>6</Button>
-          <Button>-</Button>
-        </div>
-        <div className='row'>
-          <Button>1</Button>
-          <Button>2</Button>
-          <Button>3</Button>
-          <Button>+</Button>
-        </div>
-        <div className='row'>
-          <Button>/</Button>
-          <Button>0</Button>
-          <Button>.</Button>
-          <Button>=</Button>
-        </div>
-      </div>
+      <CalculatorContainer />
+      <footer>
+        <p>Developed by Mariam Viera Amado</p>
+      </footer>
     </div>
   );
 }

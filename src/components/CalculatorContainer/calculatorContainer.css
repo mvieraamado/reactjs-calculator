@@ -1,0 +1,14 @@
+.calculatorContainer {
+    width: 300px;
+    height: 460px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: aqua;
+    border: 5px solid white;
+}
+.row {
+    margin: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
