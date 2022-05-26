@@ -1,5 +1,6 @@
 import './App.css';
 import Button from './components/Button/Button';
+import CalculatorScreen from './components/CalculatorScreen/CalculatorScreen';
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
         <p>App</p>
       </header>
       <div className='calculatorContainer'>
+        <CalculatorScreen />
         <div className='row'>
           <Button>7</Button>
           <Button>8</Button>
